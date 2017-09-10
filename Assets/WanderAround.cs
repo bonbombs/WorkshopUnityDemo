@@ -12,12 +12,10 @@ public class WanderAround : MonoBehaviour {
     private bool isWandering = true;
 
 	private NavMeshAgent agent;
-    private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
 		agent = GetComponent<NavMeshAgent>();
-        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
