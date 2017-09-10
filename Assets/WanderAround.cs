@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class WanderAround : MonoBehaviour {
 
-    [SerializeField]
     public float wanderMaxDistance = 5.0f;
     public float wanderMinDistance = 1.0f;
 
@@ -21,6 +20,8 @@ public class WanderAround : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
+        // Check if we're in the middle of wandering to one place to another
+        // If not, wander to a new random location
         if (isWandering)
         {
             if (agent.remainingDistance <= agent.stoppingDistance)
@@ -38,7 +39,7 @@ public class WanderAround : MonoBehaviour {
     // Go to a random location
     void Wander()
     {
-        // Set a flag to wander
+        // Set flag to wander
         isWandering = true;
         // Pick a random distance between the range we set
         float distance = Random.Range(wanderMinDistance, wanderMaxDistance);

@@ -18,6 +18,7 @@ public class FollowTarget : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            // Set target and start pathing to its position
             target = other.gameObject;
             agent.destination = target.transform.position;
         }
@@ -27,9 +28,10 @@ public class FollowTarget : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            // Update target and if we're still far away from it,
+            // Update pathing to its new position
             target = other.gameObject;
             Vector3 targetLocation = target.transform.position;
-            // Only update agent 
             if (Vector3.Distance(transform.position, targetLocation) > agent.stoppingDistance)
             {
                 agent.destination = targetLocation;
