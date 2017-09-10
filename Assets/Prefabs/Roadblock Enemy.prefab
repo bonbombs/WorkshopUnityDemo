@@ -140,7 +140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeColor: {r: 0, g: 1, b: 0.5862069, a: 1}
-  originalColor: {r: 0, g: 0, b: 0, a: 0}
   fadeTime: 0.5
 --- !u!114 &114916470681931926
 MonoBehaviour:
@@ -153,6 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d49a3c6d16943488e9375b14f1c2c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 114466420584485986, guid: 20b8cf4e4883b824e9a172948dbdd775,
+    type: 2}
+  scoreIncrease: 1
 --- !u!114 &114998555119283216
 MonoBehaviour:
   m_ObjectHideFlags: 1

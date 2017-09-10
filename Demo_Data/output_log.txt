@@ -21,11 +21,11 @@ Platform assembly: C:\Users\Kelly\Documents\WorkshopWeekend\Demo_Data\Managed\Un
 Loading C:\Users\Kelly\Documents\WorkshopWeekend\Demo_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\Kelly\Documents\WorkshopWeekend\Demo_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Kelly\Documents\WorkshopWeekend\Demo_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.576 seconds
+- Completed reload, in  0.455 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 64.653760 ms
+UnloadTime: 8.729058 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 551c -> priority: 1 
-  Thread -> id: 61e0 -> priority: 1 
+  Thread -> id: 6ca4 -> priority: 1 
+  Thread -> id: 7a00 -> priority: 1 
